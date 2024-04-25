@@ -5,10 +5,6 @@ import java.util.Set;
 
 public class PermutationUsingRecursion {
     public static void main(String[] args) {
-//        String str = "abcdefghijklmno";
-//        Set<String> list =  new HashSet<>();
-//        returnAllPermutation(0, str, "" ,list);
-//        list.stream().sorted().forEach(System.out::println);
         List<Integer> list = List.of(10, 20, 12, 13, 14, 15, 16, 17, 18);
         List<List<Integer>> powerSet = new LinkedList<>();
         powerSet.add(new LinkedList<>());
@@ -19,6 +15,7 @@ public class PermutationUsingRecursion {
         System.out.println(a);
     }
 
+    @SuppressWarnings("unused")
     public static void returnAllPermutation(int c, String org, String str, Set<String> strings) {
         if (c != org.length()) {
             strings.add(str);
