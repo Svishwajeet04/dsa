@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f87a23a0-91cc-455a-92ce-b67b72ec1920" name="Changes" comment="29-04-2024">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Svishwajeet04&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Svishwajeet04/dsa.git&quot;,
+    &quot;accountId&quot;: &quot;93ed0095-ebd1-4c49-becb-105b4843ee76&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2V9abrOldwS4EXOhuzd0l3PJsms" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.BinarySearchRecursive.executor": "Debug",
+    "Application.CircularSubarrays.executor": "Run",
+    "Application.CoinExchangeMin.executor": "Run",
+    "Application.FindMajorityElement.executor": "Debug",
+    "Application.GCD.executor": "Run",
+    "Application.JosepheusProblem.executor": "Debug",
+    "Application.MaxConsecutive1s.executor": "Run",
+    "Application.MaxDifference.executor": "Debug",
+    "Application.MaxLengthSubArrEvenOdd.executor": "Run",
+    "Application.MaximumSubArray.executor": "Run",
+    "Application.MoveZeroesToEnd.executor": "Debug",
+    "Application.PermutationUsingRecursion.executor": "Run",
+    "Application.PrimeFactors.executor": "Debug",
+    "Application.ReverseAnArray.executor": "Debug",
+    "Application.SecondLargestElementInArray.executor": "Run",
+    "Application.SquareRootUsingBinarySearch.executor": "Debug",
+    "Application.Subsets.executor": "Run",
+    "Application.TowerOfHanoi.executor": "Run",
+    "Application.TrappingRainWater.executor": "Debug",
+    "Application.TripletSum.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/singh/Documents/holygrims/be",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FindMajorityElement">
+    <configuration name="BinarySearchRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearchRecursive" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularSubarrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CircularSubarrays" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindMajorityElement" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MaximumSubArray" />
+      <module name="DSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SquareRootUsingBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.SquareRootUsingBinarySearch" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindMajorityElement" />
+        <item itemvalue="Application.SquareRootUsingBinarySearch" />
+        <item itemvalue="Application.MaximumSubArray" />
+        <item itemvalue="Application.CircularSubarrays" />
+        <item itemvalue="Application.BinarySearchRecursive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f87a23a0-91cc-455a-92ce-b67b72ec1920" name="Changes" comment="" />
+      <created>1694250823622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694250823622</updated>
+    </task>
+    <task id="LOCAL-00001" summary="merged master">
+      <option name="closed" value="true" />
+      <created>1713673620415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713673620415</updated>
+    </task>
+    <task id="LOCAL-00002" summary="merged master">
+      <option name="closed" value="true" />
+      <created>1713673671583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713673671583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="25-04-2024">
+      <option name="closed" value="true" />
+      <created>1714017989794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714017989794</updated>
+    </task>
+    <task id="LOCAL-00004" summary="25-04-2024">
+      <option name="closed" value="true" />
+      <created>1714018452445</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714018452445</updated>
+    </task>
+    <task id="LOCAL-00005" summary="26-04-2024">
+      <option name="closed" value="true" />
+      <created>1714137155476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714137155476</updated>
+    </task>
+    <task id="LOCAL-00006" summary="27-04-2024">
+      <option name="closed" value="true" />
+      <created>1714234307990</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714234307990</updated>
+    </task>
+    <task id="LOCAL-00007" summary="29-04-2024">
+      <option name="closed" value="true" />
+      <created>1714405895752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714405895752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="merged master" />
+    <MESSAGE value="25-04-2024" />
+    <MESSAGE value="26-04-2024" />
+    <MESSAGE value="27-04-2024" />
+    <MESSAGE value="29-04-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="29-04-2024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TripletSum.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PrimeFactors.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MaxDifference.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TrappingRainWater.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binary_search/BinarySearchRecursive.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binary_search/BinarySearchRecursive.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binary_search/SquareRootUsingBinarySearch.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binary_search/SquareRootUsingBinarySearch.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.gk646.codestats.settings.Save">
+    <option name="commitTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1713673620459" />
+          <option name="linesCode" value="361" />
+          <option name="totalLines" value="460" />
+          <option name="info" value="merged master" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1713673671627" />
+          <option name="linesCode" value="360" />
+          <option name="totalLines" value="442" />
+          <option name="info" value="merged master" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714017989894" />
+          <option name="linesCode" value="466" />
+          <option name="totalLines" value="555" />
+          <option name="info" value="25-04-2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714018452482" />
+          <option name="linesCode" value="499" />
+          <option name="totalLines" value="590" />
+          <option name="info" value="25-04-2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714137155530" />
+          <option name="linesCode" value="553" />
+          <option name="totalLines" value="647" />
+          <option name="info" value="26-04-2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714405895840" />
+          <option name="linesCode" value="674" />
+          <option name="totalLines" value="789" />
+          <option name="info" value="29-04-2024" />
+        </TimePoint>
+      </list>
+    </option>
+    <option name="genericTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1714018452482" />
+          <option name="linesCode" value="499" />
+          <option name="totalLines" value="590" />
+          <option name="info" value="25-Apr-2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714137155530" />
+          <option name="linesCode" value="553" />
+          <option name="totalLines" value="647" />
+          <option name="info" value="26-Apr-2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1714405895840" />
+          <option name="linesCode" value="674" />
+          <option name="totalLines" value="789" />
+          <option name="info" value="29-Apr-2024" />
+        </TimePoint>
+      </list>
+    </option>
+  </component>
+</project>
