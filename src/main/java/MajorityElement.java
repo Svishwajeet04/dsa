@@ -1,10 +1,10 @@
-public class FindMajorityElement {
+public class MajorityElement {
 
 //    moore's voting algorithm
 
     public static void main(String[] args) {
         int[] arr = new int[]{8, 6, 6, 8, 8, 8, 6, 4, 6, 8, 8};
-        System.out.println(FindMajorityElement.solve(arr));
+        System.out.println(MajorityElement.solve(arr));
     }
 
     private static int solve(int[] arr) {
