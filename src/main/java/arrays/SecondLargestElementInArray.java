@@ -1,3 +1,5 @@
+package arrays;
+
 public class SecondLargestElementInArray {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 66, 45, 34, 24, 78, 88, 90, 47};

@@ -1,3 +1,5 @@
+package arrays;
+
 public class MaximumSubArraySum {
     public static void main(String[] args) {
         int[] arr = new int[]{2, 45, 45, 23, 344, -23, -22, 45};

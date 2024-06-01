@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f87a23a0-91cc-455a-92ce-b67b72ec1920" name="Changes" comment="10-05-2024">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MaxDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaxDifference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,46 +64,46 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BinarySearchRecursive.executor": "Debug",
-    "Application.CircularSubarrays.executor": "Run",
-    "Application.CoinExchangeMin.executor": "Run",
-    "Application.FindMajorityElement.executor": "Debug",
-    "Application.GCD.executor": "Run",
-    "Application.JosepheusProblem.executor": "Debug",
-    "Application.MaxConsecutive1s.executor": "Run",
-    "Application.MaxDifference.executor": "Debug",
-    "Application.MaxLengthSubArrEvenOdd.executor": "Run",
-    "Application.MaximumSubArray.executor": "Run",
-    "Application.MoveZeroesToEnd.executor": "Debug",
-    "Application.PermutationUsingRecursion.executor": "Run",
-    "Application.PrimeFactors.executor": "Debug",
-    "Application.ReverseAnArray.executor": "Debug",
-    "Application.SecondLargestElementInArray.executor": "Run",
-    "Application.SquareRootUsingBinarySearch.executor": "Debug",
-    "Application.Subsets.executor": "Run",
-    "Application.TowerOfHanoi.executor": "Run",
-    "Application.TrappingRainWater.executor": "Debug",
-    "Application.TripletSum.executor": "Run",
-    "Gradle.DSA [:BinarySearchSortedRotatedArray.main()].executor": "Run",
-    "Gradle.DSA [:GraphDSA.main()].executor": "Run",
-    "Gradle.DSA [:MaxDifference.main()].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/singh/Documents/holygrims/be",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BinarySearchRecursive.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CircularSubarrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CoinExchangeMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMajorityElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GCD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JosepheusProblem.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxConsecutive1s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxDifference.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxLengthSubArrEvenOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroesToEnd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PermutationUsingRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimeFactors.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseAnArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SecondLargestElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareRootUsingBinarySearch.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Subsets.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TowerOfHanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TripletSum.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:BinarySearchSortedRotatedArray.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:GraphDSA.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:MaxDifference.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/singh/Documents/holygrims/be&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -248,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715312495555</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="10-05-2024">
+      <option name="closed" value="true" />
+      <created>1715313404512</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715313404512</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +320,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/MaxDifference.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -394,6 +402,12 @@
           <option name="totalLines" value="951" />
           <option name="info" value="10-05-2024" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1715313404575" />
+          <option name="linesCode" value="755" />
+          <option name="totalLines" value="952" />
+          <option name="info" value="10-05-2024" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -417,9 +431,9 @@
           <option name="info" value="29-Apr-2024" />
         </TimePoint>
         <TimePoint>
-          <option name="timestamp" value="1715312495600" />
+          <option name="timestamp" value="1715313404575" />
           <option name="linesCode" value="755" />
-          <option name="totalLines" value="951" />
+          <option name="totalLines" value="952" />
           <option name="info" value="10-May-2024" />
         </TimePoint>
       </list>

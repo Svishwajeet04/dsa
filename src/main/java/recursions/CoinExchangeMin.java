@@ -1,5 +1,7 @@
-import java.util.Arrays;
+package recursions;
 
+
+//minimum number of coins required to make an amount
 public class CoinExchangeMin {
 
     public static void main(String[] args) {

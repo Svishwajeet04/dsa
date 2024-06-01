@@ -1,3 +1,5 @@
+package arrays;
+
 public class MajorityElement {
 
 //    moore's voting algorithm

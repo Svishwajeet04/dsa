@@ -1,3 +1,5 @@
+package recursions;
+
 public class JosephusProblem {
     public static void main(String[] args) {
         System.out.println(solve(7, 3));

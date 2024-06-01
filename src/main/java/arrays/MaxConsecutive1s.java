@@ -1,3 +1,5 @@
+package arrays;
+
 public class MaxConsecutive1s {
 
     public static void main(String[] args) {

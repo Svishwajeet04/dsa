@@ -1,3 +1,5 @@
+package arrays;
+
 public class MaxLengthSubArrEvenOdd {
 
     public static void main(String[] args) {
