@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f87a23a0-91cc-455a-92ce-b67b72ec1920" name="Changes" comment="10-05-2024">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="f87a23a0-91cc-455a-92ce-b67b72ec1920" name="Changes" comment="01-06-2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +88,11 @@
     &quot;Application.TrappingRainWater.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TripletSum.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.DSA [:BinarySearchSortedRotatedArray.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:FindPeakElement.main()].executor&quot;: &quot;Debug&quot;,
     &quot;Gradle.DSA [:GraphDSA.main()].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.DSA [:MaxDifference.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:PairSum.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DSA [:TripletSum.main()].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -109,9 +111,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxDifference">
-    <configuration name="BinarySearchSortedRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.BinarySearchSortedRotatedArray" />
+  <component name="RunManager" selected="Application.TripletSum">
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.FindPeakElement" />
       <module name="DSA.main" />
       <extension name="coverage">
         <pattern>
@@ -123,33 +125,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindMajorityElement" />
-      <module name="DSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GraphDSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphDSA" />
+      <option name="MAIN_CLASS_NAME" value="misc.GraphDSA" />
       <module name="DSA.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MaxDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxDifference" />
+      <option name="MAIN_CLASS_NAME" value="arrays.MaxDifference" />
       <module name="DSA.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRootUsingBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.SquareRootUsingBinarySearch" />
-      <module name="DSA" />
+    <configuration name="PairSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="two_pointer.PairSum" />
+      <module name="DSA.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary_search.*" />
+          <option name="PATTERN" value="two_pointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripletSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maths.TripletSum" />
+      <module name="DSA.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TripletSum" />
+        <item itemvalue="Application.PairSum" />
+        <item itemvalue="Application.FindPeakElement" />
         <item itemvalue="Application.MaxDifference" />
         <item itemvalue="Application.GraphDSA" />
-        <item itemvalue="Application.BinarySearchSortedRotatedArray" />
-        <item itemvalue="Application.FindMajorityElement" />
-        <item itemvalue="Application.SquareRootUsingBinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +264,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715313404512</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="01-06-2024">
+      <option name="closed" value="true" />
+      <created>1717234969993</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717234969993</updated>
+    </task>
+    <task id="LOCAL-00012" summary="01-06-2024">
+      <option name="closed" value="true" />
+      <created>1717234982131</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717234982131</updated>
+    </task>
+    <task id="LOCAL-00013" summary="01-06-2024">
+      <option name="closed" value="true" />
+      <created>1717235584686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717235584686</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,53 +310,54 @@
     <MESSAGE value="27-04-2024" />
     <MESSAGE value="29-04-2024" />
     <MESSAGE value="10-05-2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="10-05-2024" />
+    <MESSAGE value="01-06-2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="01-06-2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TripletSum.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/maths/TripletSum.java</url>
           <line>34</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PrimeFactors.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/maths/PrimeFactors.java</url>
           <line>5</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/recursions/JosephusProblem.java</url>
           <line>23</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/recursions/JosephusProblem.java</url>
           <line>19</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/recursions/JosephusProblem.java</url>
           <line>24</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/recursions/JosephusProblem.java</url>
           <line>32</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JosephusProblem.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/recursions/JosephusProblem.java</url>
           <line>13</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MaxDifference.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/MaxDifference.java</url>
           <line>18</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TrappingRainWater.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/TrappingRainWater.java</url>
           <line>27</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -347,6 +380,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/binary_search/SquareRootUsingBinarySearch.java</url>
           <line>17</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binary_search/FindPeakElement.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
