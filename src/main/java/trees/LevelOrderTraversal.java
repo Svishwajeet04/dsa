@@ -20,7 +20,7 @@ public class LevelOrderTraversal {
             return List.of();
         }else{
             List<Integer> list = new ArrayList<>();
-            Queue<Tree> stack = new ArrayDeque<>();
+            Deque<Tree> stack = new ArrayDeque<>();
             stack.add(tree);
             while (!stack.isEmpty()){
                 int n = stack.size();
