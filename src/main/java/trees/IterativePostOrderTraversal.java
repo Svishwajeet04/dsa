@@ -7,25 +7,25 @@ import java.util.Stack;
 public class IterativePostOrderTraversal {
 
     public static void main(String[] args) {
-        Tree tree = new Tree()
+        TreeNode treeNode = new TreeNode()
                 .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                                new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
+                .setLeft(new TreeNode().setVal(1).setLeft(
+                                new TreeNode().setVal(2)
+                                        .setLeft(new TreeNode().setVal(4))
+                                        .setRight(new TreeNode().setVal(5)
+                                                .setLeft(new TreeNode(6))
+                                                .setRight(new TreeNode(7))))
+                        .setRight(new TreeNode(3)))
+                .setRight(new TreeNode(14));
 
-        System.out.println(getIterativePostOrderTraversal(tree));
+        System.out.println(getIterativePostOrderTraversal(treeNode));
     }
 
-    private static List<Integer> getIterativePostOrderTraversal(Tree tree) {
+    private static List<Integer> getIterativePostOrderTraversal(TreeNode treeNode) {
         List<Integer> ls = new ArrayList<>();
-        Stack<Tree> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         Stack<Integer> st2 = new Stack<>();
-        stack.push(tree);
+        stack.push(treeNode);
         while(!stack.isEmpty()){
             var node = stack.pop();
             st2.push(node.val);

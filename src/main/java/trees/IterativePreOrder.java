@@ -8,24 +8,24 @@ public class IterativePreOrder {
 
 
     public static void main(String[] args) {
-        Tree tree = new Tree()
+        TreeNode treeNode = new TreeNode()
                 .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                        new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
+                .setLeft(new TreeNode().setVal(1).setLeft(
+                        new TreeNode().setVal(2)
+                                        .setLeft(new TreeNode().setVal(4))
+                                        .setRight(new TreeNode().setVal(5)
+                                                .setLeft(new TreeNode(6))
+                                                .setRight(new TreeNode(7))))
+                        .setRight(new TreeNode(3)))
+                .setRight(new TreeNode(14));
 
-        System.out.println(getIterativePreOrder(tree));
+        System.out.println(getIterativePreOrder(treeNode));
     }
 
-    private static List<Integer> getIterativePreOrder(Tree tree) {
+    private static List<Integer> getIterativePreOrder(TreeNode treeNode) {
         List<Integer> ls = new ArrayList<>();
-        Stack<Tree> stack = new Stack<>();
-        stack.add(tree);
+        Stack<TreeNode> stack = new Stack<>();
+        stack.add(treeNode);
         while(!stack.isEmpty()){
             var node = stack.pop();
             ls.add(node.val);

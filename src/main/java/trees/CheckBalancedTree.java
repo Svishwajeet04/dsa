@@ -3,26 +3,26 @@ package trees;
 public class CheckBalancedTree {
 
     public static void main(String[] args) {
-        Tree tree = new Tree()
+        TreeNode treeNode = new TreeNode()
                 .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                                new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
+                .setLeft(new TreeNode().setVal(1).setLeft(
+                                new TreeNode().setVal(2)
+                                        .setLeft(new TreeNode().setVal(4))
+                                        .setRight(new TreeNode().setVal(5)
+                                                .setLeft(new TreeNode(6))
+                                                .setRight(new TreeNode(7))))
+                        .setRight(new TreeNode(3)))
+                .setRight(new TreeNode(14));
 
-        System.out.println(doCheckBalancedTree(tree) != -1);
+        System.out.println(doCheckBalancedTree(treeNode) != -1);
     }
 
-    private static int doCheckBalancedTree(Tree tree) {
-        if (tree == null) {
+    private static int doCheckBalancedTree(TreeNode treeNode) {
+        if (treeNode == null) {
             return 0;
         } else {
-            int r = doCheckBalancedTree(tree.right);
-            int l = doCheckBalancedTree(tree.left);
+            int r = doCheckBalancedTree(treeNode.right);
+            int l = doCheckBalancedTree(treeNode.left);
             if (r == -1 || l == -1) {
                 return -1;
             }

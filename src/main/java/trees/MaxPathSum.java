@@ -4,31 +4,31 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MaxPathSum {
     public static void main(String[] args) {
-        Tree tree = new Tree()
+        TreeNode treeNode = new TreeNode()
                 .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                                new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
+                .setLeft(new TreeNode().setVal(1).setLeft(
+                                new TreeNode().setVal(2)
+                                        .setLeft(new TreeNode().setVal(4))
+                                        .setRight(new TreeNode().setVal(5)
+                                                .setLeft(new TreeNode(6))
+                                                .setRight(new TreeNode(7))))
+                        .setRight(new TreeNode(3)))
+                .setRight(new TreeNode(14));
         AtomicInteger max = new AtomicInteger();
-        getMaxPathSum(tree, max);
+        getMaxPathSum(treeNode, max);
         System.out.println(max.get());
     }
 
-    private static int getMaxPathSum(Tree tree, AtomicInteger max) {
-        if(tree == null){
+    private static int getMaxPathSum(TreeNode treeNode, AtomicInteger max) {
+        if(treeNode == null){
             return 0;
         }else{
-            int rh = getMaxPathSum(tree.right, max);
-            int lh = getMaxPathSum(tree.left, max);
-            if(max.get() < (tree.val + rh + lh)){
-                max.set(tree.val + rh + lh);
+            int rh = getMaxPathSum(treeNode.right, max);
+            int lh = getMaxPathSum(treeNode.left, max);
+            if(max.get() < (treeNode.val + rh + lh)){
+                max.set(treeNode.val + rh + lh);
             }
-            return tree.val + Math.max(rh, lh);
+            return treeNode.val + Math.max(rh, lh);
         }
     }
 }
