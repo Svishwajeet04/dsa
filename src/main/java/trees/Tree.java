@@ -14,6 +14,16 @@ public class Tree {
         return this;
     }
 
+    public Tree setLeft(int n){
+        this.left = new Tree(n);
+        return this;
+    }
+
+    public Tree setRight(int n){
+        this.right = new Tree(n);
+        return this;
+    }
+
     public Tree setLeft(Tree left) {
         this.left = left;
         return this;
