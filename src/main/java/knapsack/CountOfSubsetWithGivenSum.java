@@ -3,7 +3,7 @@ package knapsack;
 public class CountOfSubsetWithGivenSum {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 6, 8, 10};
-        int sum = 8;
+        final var sum = 8;
         int res = solveCountOfSubsetWithGivenSum(arr, arr.length, sum, 0);
         System.out.println(res);
     }

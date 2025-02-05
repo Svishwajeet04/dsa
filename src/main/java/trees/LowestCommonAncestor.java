@@ -1,38 +1,35 @@
 package trees;
 
 public class LowestCommonAncestor {
-
     public static void main(String[] args) {
-        Tree tree = new Tree()
-                .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                                new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
-
-        System.out.println(getLowestCommonAncestor(tree, 3, 14));
+        TreeNode root = new TreeNode(1)
+                .setRight(new TreeNode(7)
+                        .setLeft(new TreeNode(55))
+                        .setRight(new TreeNode(8)
+                        .setLeft(new TreeNode(9)
+                                .setLeft(new TreeNode(10))
+                                .setRight(new TreeNode(11)))))
+                .setLeft(new TreeNode(2)
+                        .setLeft(new TreeNode(3)
+                                .setRight(new TreeNode(4)
+                                        .setLeft(new TreeNode(5))
+                                        .setRight(new TreeNode(6)))));
+        var path = getLowestCommonAncestor(root, 56, 10);
+        System.out.println(path);
     }
 
-    private static Integer getLowestCommonAncestor(Tree tree, int x , int y) {
-        if(tree == null){
+    private static Integer getLowestCommonAncestor(TreeNode root, int node1, int node2) {
+        if (root == null) {
             return null;
-        }
-        if(tree.val == x || tree.val == y){
-            return tree.val;
-        }else{
-            Integer xv = getLowestCommonAncestor(tree.left, x , y);
-            Integer yv = getLowestCommonAncestor(tree.right, x , y);
-            if(xv != null & yv != null && xv != yv){
-                return tree.val;
-            }
-            if(xv != null){
-                return xv;
+        } else if (root.val == node1 || root.val == node2) {
+            return root.val;
+        } else {
+            var left = getLowestCommonAncestor(root.left, node1, node2);
+            var right = getLowestCommonAncestor(root.right, node1, node2);
+            if(left != null && right != null){
+                return root.val;
             }else{
-                return yv;
+                return left != null ? left : right;
             }
         }
     }

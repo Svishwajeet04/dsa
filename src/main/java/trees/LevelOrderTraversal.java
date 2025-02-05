@@ -5,23 +5,23 @@ import java.util.*;
 public class LevelOrderTraversal {
 
     public static void main(String[] args) {
-        Tree tree = new Tree(1)
-                .setLeft(new Tree(2)
-                        .setLeft(new Tree(4))
-                        .setRight(new Tree(5)))
-                .setRight(new Tree(3)
-                        .setRight(new Tree(6)));
+        TreeNode treeNode = new TreeNode(1)
+                .setLeft(new TreeNode(2)
+                        .setLeft(new TreeNode(4))
+                        .setRight(new TreeNode(5)))
+                .setRight(new TreeNode(3)
+                        .setRight(new TreeNode(6)));
 
-        System.out.println(getLevelOrderTraversal(tree));
+        System.out.println(getLevelOrderTraversal(treeNode));
     }
 
-    private static List<Integer> getLevelOrderTraversal(Tree tree) {
-        if (tree == null) {
+    private static List<Integer> getLevelOrderTraversal(TreeNode treeNode) {
+        if (treeNode == null) {
             return List.of();
         }else{
             List<Integer> list = new ArrayList<>();
-            Deque<Tree> stack = new ArrayDeque<>();
-            stack.add(tree);
+            Queue<TreeNode> stack = new ArrayDeque<>();
+            stack.add(treeNode);
             while (!stack.isEmpty()){
                 int n = stack.size();
                 for (int i = 0; i < n; i++) {

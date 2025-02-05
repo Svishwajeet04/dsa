@@ -7,17 +7,17 @@ import java.util.List;
 public class BoundaryTraversalAntiClockWise {
 
     public static void main(String[] args) {
-        Tree tree = new Tree(1)
-                .setLeft(new Tree(2)
-                        .setLeft(new Tree(4).setLeft(new Tree(7)).setRight(new Tree(8)))
-                        .setRight(new Tree(5).setLeft(new Tree(9)).setRight(new Tree(10))))
-                .setRight(new Tree(3)
-                        .setRight(new Tree(6).setLeft(new Tree(11)).setRight(new Tree(12))));
+        TreeNode tree = new TreeNode(1)
+                .setLeft(new TreeNode(2)
+                        .setLeft(new TreeNode(4).setLeft(new TreeNode(7)).setRight(new TreeNode(8)))
+                        .setRight(new TreeNode(5).setLeft(new TreeNode(9)).setRight(new TreeNode(10))))
+                .setRight(new TreeNode(3)
+                        .setRight(new TreeNode(6).setLeft(new TreeNode(11)).setRight(new TreeNode(12))));
 
         System.out.println(getBoundaryTraversalAntiClockWise(tree, 0, new ArrayList<Integer>(), new HashMap<Integer, Integer>()));
     }
 
-    private static List<Integer> getBoundaryTraversalAntiClockWise(Tree tree, int i, ArrayList<Integer> ls, HashMap<Integer, Integer> map) {
+    private static List<Integer> getBoundaryTraversalAntiClockWise(TreeNode tree, int i, ArrayList<Integer> ls, HashMap<Integer, Integer> map) {
         return null;
     }
 }

@@ -3,25 +3,25 @@ package trees;
 public class MaxHeightOfTree {
 
     public static void main(String[] args) {
-        Tree tree = new Tree()
+        TreeNode treeNode = new TreeNode()
                 .setVal(13)
-                .setLeft(new Tree().setVal(1).setLeft(
-                                new Tree().setVal(2)
-                                        .setLeft(new Tree().setVal(4))
-                                        .setRight(new Tree().setVal(5)
-                                                .setLeft(new Tree(6))
-                                                .setRight(new Tree(7))))
-                        .setRight(new Tree(3)))
-                .setRight(new Tree(14));
+                .setLeft(new TreeNode().setVal(1).setLeft(
+                                new TreeNode().setVal(2)
+                                        .setLeft(new TreeNode().setVal(4))
+                                        .setRight(new TreeNode().setVal(5)
+                                                .setLeft(new TreeNode(6))
+                                                .setRight(new TreeNode(7))))
+                        .setRight(new TreeNode(3)))
+                .setRight(new TreeNode(14));
 
-        System.out.println(getMaxHeightOfTree(tree));
+        System.out.println(getMaxHeightOfTree(treeNode));
     }
 
-    private static int getMaxHeightOfTree(Tree tree) {
-        if(tree == null){
+    private static int getMaxHeightOfTree(TreeNode treeNode) {
+        if(treeNode == null){
             return 0;
         }else{
-            return Math.max(getMaxHeightOfTree(tree.left), getMaxHeightOfTree(tree.right))
+            return Math.max(getMaxHeightOfTree(treeNode.left), getMaxHeightOfTree(treeNode.right))
                     + 1;
         }
     }

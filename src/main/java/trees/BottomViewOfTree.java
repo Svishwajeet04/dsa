@@ -1,6 +1,8 @@
 package trees;
 
-public class RootToNodePath {
+import java.util.*;
+
+public class BottomViewOfTree {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1)
@@ -13,23 +15,19 @@ public class RootToNodePath {
                                 .setRight(new TreeNode(4)
                                         .setLeft(new TreeNode(5))
                                         .setRight(new TreeNode(6)))));
-        var path = rootToNodePath(root, 10, "");
-        System.out.println(path);
+        List<Integer> topView = new ArrayList<>(getTop(root, new HashMap<>(), 0)
+                .entrySet().stream()
+                .sorted(Comparator.comparingInt(Map.Entry::getKey))
+                .map(Map.Entry::getValue).toList());
+        System.out.println(topView);
     }
 
-    private static String rootToNodePath(TreeNode root, int node, String path) {
-        if (root == null) {
-            return null;
-        } else if (root.val == node) {
-            return path + "->" + node;
-        } else {
-            path = path.isEmpty() ? path + root.val : path + "->" + root.val;
-            var right = rootToNodePath(root.right, node, path);
-            var left = rootToNodePath(root.left, node, path);
-            if (right != null) {
-                return right;
-            }
-            return left;
+    private static Map<Integer,Integer> getTop(TreeNode root, Map<Integer, Integer> integers, int curr) {
+        if(root != null){
+            integers.put(curr, root.val);
+            getTop(root.left, integers, curr -1);
+            getTop(root.right, integers, curr + 1);
         }
+        return integers;
     }
 }
